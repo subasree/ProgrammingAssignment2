@@ -1,5 +1,4 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Matrix inversion is a costly operation and hence this R program aims to cache## the computed inverse   
 
 ## Write a short comment describing this function
 
