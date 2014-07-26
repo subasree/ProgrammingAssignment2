@@ -1,6 +1,6 @@
 ## Matrix inversion is a costly operation and hence this R program aims to cache## the computed inverse   
 
-## makeCacheMatrix function creates a special matrix that can cache its inverse ## by returning a set of functions that can operated on the matrix 
+## makeCacheMatrix function creates a special matrix that can cache its inverse by returning a set of functions that can operated on the matrix 
 
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolve function retrieves the inverse of the matrix created by           ## makeCacheMatrix function from the cache if the inverse is stored and matrix  ## has not changed else the inverse is computed and stored  
+## cacheSolve function retrieves the inverse of the matrix created by makeCacheMAtrix function from the cache if the inverse is stored and matrix has not changed else the inverse is computed and stored  
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
